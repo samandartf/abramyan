@@ -200,7 +200,7 @@ class MiniBankApp:
         for item in self.transactions:
             self.history_listbox.insert(tk.END, item)
 
-
+#o'zgarish
 root = tk.Tk()
 app = MiniBankApp(root)
 root.mainloop()
